@@ -1,0 +1,20 @@
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    z-index: 10;
+}
+
+.menu-nav a {
+    color: #ffffff;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu-nav a:hover {
+    color: #cacaca99;
+}
